@@ -1,0 +1,188 @@
+.company-log-top-panel, .company-log-bottom-panel {
+    position: relative;
+    margin: 15px 0;
+    margin-right: 25px;
+    z-index: 15;
+}
+
+.company-badge {
+    position: absolute;
+    top: -10px;
+    right: -30px;
+    background: #ffcc3e;
+    width: 35px;
+    height: 35px;
+    border: 4px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.company-badge:hover {
+    width: 40px;
+    height: 40px;
+    top: -15px;
+    right: -35px;
+}
+
+.bottom-panel {
+    margin-right: -120px;
+}
+
+.about-panel {
+    overflow: hidden;
+    margin: 120px auto;
+    width: 90%;
+    border-radius: 58px;
+    padding: 100px;
+    background-image: linear-gradient(126deg, #d22929 9%, #9f293a 59%);
+    position: relative;
+}
+
+.about-content {
+    width: 28%;
+    z-index: 10;
+    margin: 20px 0;
+}
+
+.about-content>.title {
+    margin: 0 0px 10px 0;
+    font-family: CHANEY-UltraExtended;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffcc3e;
+}
+
+.medium-title {
+    margin: 10px 0 0;
+    font-family: CHANEY-Wide;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    word-break: break-all;
+}
+
+.about-discription {
+    margin: 16px 0 0;
+    font-family: IBMPlexSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.about-bg {
+    position: absolute;
+    z-index: 1;
+    width: 65%;
+    top: 0;
+    right: 0;
+    height: 110%;
+}
+
+.footer-bg-panel {
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+.footer-bg-left>img {
+    position: absolute;
+    top: 30px;
+    width: 45vw;
+    left: -13vw;
+    z-index: 12;
+    max-width: 548px;
+    min-width: 300px;
+}
+
+.footer-bg-right>img {
+    position: absolute;
+    top: 100px;
+    min-width: 300px;
+    width: 45vw;
+    right: -10vw;
+    z-index: 12;
+    max-width: 548px;
+}
+
+@media (min-width: 1440px) {
+    .footer-bg-left>img {
+        left: -156px;
+    }
+    .footer-bg-right>img {
+        right: -156px;
+    }
+}
+
+.crown-panel>p, .diamond-panel>p {
+    font-family: CHANEY-Extended;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.crown-panel {
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.crown-panel>p {
+    margin-left: -40px;
+}
+
+.diamond-panel {
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    z-index: 13;
+}
+
+.diamond-panel>p {
+    margin-right: -40px;
+    z-index: 14;
+}
+
+@media (max-width: 991px) {
+    .about-bg {
+        height: 50%;
+        bottom: -10px;
+        top: auto;
+    }
+}
+
+@media (max-width: 765px) {
+    .about-bg {
+        width: 80%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 520px) {
+    .about-panel {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 370px) {
+    .about-panel {
+        padding: 100px 20px;
+    }
+}

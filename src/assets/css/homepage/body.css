@@ -1,0 +1,178 @@
+.background-panel {
+    z-index: 1;
+}
+
+.bg-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bg-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg-spray {
+    transform: translate(50%, 50%);
+    /* width: 19vw;
+    max-width: 360px; */
+}
+
+/* .bg-top-right_right {
+    width: 30vw;
+    max-width: 567px;
+} */
+
+.body-content {
+    z-index: 10;
+    position: relative;
+}
+
+.body-title {
+    margin: 83px 24px 0px 0px;
+    font-family: CHANEY-UltraExtended;
+    font-size: 6.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.body-title:last-of-type {
+    margin: 0 24px 20px 0px;
+}
+
+.body-title_bottom {
+    font-family: CHANEY-UltraExtended;
+    font-size: 6.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #ffcc3e
+}
+
+.player-cards-img {
+    margin: 51px 40px 54px 0;
+    width: 100%;
+    object-fit: contain;
+}
+
+.body-content-left {
+    width: 45%;
+    padding-left: 80px;
+}
+
+.body-content-text {
+    margin: 20px 40px 40px 0px;
+    font-family: IBMPlexSans;
+    font-size: 2rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.join-btn {
+    font-family: CHANEY-Extended;
+    font-size: 1.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    border-radius: 10px;
+    border: solid 3px #000000;
+    background-color: #ffcc3e;
+    padding: 15px 26px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.player-pad {
+    border-radius: 28px;
+    background-color: #0e3f8f;
+    margin-top: 20px;
+    min-width: max-content;
+    max-width: max-content;
+}
+
+.player-pad-content {
+    padding: 15px 25px 15px 10px;
+}
+
+.player-pad-content>p {
+    font-family: CHANEY-UltraExtended;
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.player-pad-content>p:last-of-type {
+    font-family: CHANEY-Wide;
+    font-size: 1.6rem
+}
+
+.bottom-content {
+    margin: 6px 32px 0 12px;
+    font-family: BlowBrush;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffcc3e;
+}
+
+@media (max-width: 1235px) {
+    .body-title, .body-title_bottom {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .body-title, .body-title_bottom {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .body-title {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .body-title {
+        margin: 83px 0px 0px 0px !important;
+    }
+}
+@media (max-width: 991px) {
+    .join-btn {
+        height: 50px;
+    }
+    .btn-panel>div {
+        height: 50px;
+    }
+    .player-pad {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .player-pad {
+        margin-top: 20px;
+    }
+}

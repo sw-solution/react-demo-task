@@ -1,0 +1,109 @@
+@font-face {
+    font-family: CHANEY;
+    src: url(../fonts/Chaney/CHANEY-Regular.ttf);
+}
+
+@font-face {
+    font-family: CHANEY-Wide;
+    src: url(../fonts/Chaney/CHANEY-Wide.ttf);
+}
+
+@font-face {
+    font-family: CHANEY-Extended;
+    src: url(../fonts/Chaney/CHANEY-Extended.ttf);
+}
+
+@font-face {
+    font-family: CHANEY-UltraExtended;
+    src: url(../fonts/Chaney/CHANEY-UltraExtended.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSans;
+    src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: BlowBrush;
+    src: url(../fonts/blowbrush/blowbrush.ttf);
+}
+
+html, body {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+a, button, input {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+#root {
+    background-color: #222222;
+}
+
+.homepage-panel {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #2055ab, #1691b4 98%);
+    padding: 0;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.f {
+    display: flex;
+}
+
+.f-around {
+    justify-content: space-around
+}
+
+.f-between {
+    justify-content: space-between;
+}
+
+.f-center-x {
+    justify-content: center;
+}
+
+.f-center-y {
+    align-items: center;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.f-start-x {
+    justify-content: flex-start;
+}
+
+.f-start-y {
+    align-items: flex-start;
+}
+
+.f-end-x {
+    justify-content: flex-end;
+}
+
+.f-end-y {
+    align-items: flex-end;
+}

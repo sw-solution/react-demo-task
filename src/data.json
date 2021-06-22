@@ -1,0 +1,206 @@
+{
+  "header": {
+    "bannerText1": "sint occaecat cupidatat non proident",
+    "bannerText2": "lorem ipsum dolor sit amet",
+    "bannerText3": "exceptecat",
+    "navs": [
+      {
+        "nav": "HOME",
+        "badge": "",
+        "path": "#"
+      },
+      {
+        "nav": "MARKETPLACE",
+        "badge": "",
+        "path": "#"
+      },
+      {
+        "nav": "GAMES",
+        "badge": "SOON",
+        "path": "#"
+      },
+      {
+        "nav": "CHALLENGES",
+        "badge": "SOON",
+        "path": "#"
+      },
+      {
+        "nav": "LEADERBOARD",
+        "badge": "SOON",
+        "path": "#"
+      },
+      {
+        "nav": "CONNECT WALLET",
+        "badge": "",
+        "path": "#"
+      }
+    ],
+    "logo": "image/logo.svg"
+  },
+  "body": {
+    "title": [
+      {
+        "top": "Own The",
+        "bottom": "Best."
+      },
+      {
+        "top": "Rule The",
+        "bottom": "Game."
+      }
+    ],
+    "contentText": "Buy, sell, and collect official NBA players to play and earn. Superhuman is a virtual gaming universe with upgradable characters, high rewarding games and exclusive offers for sports fans.",
+    "buttonText": "JOIN NOW",
+    "player_pad_content1": "stephen",
+    "player_pad_content2": "curry",
+    "bottom_content": "VERIFIED players",
+    "playCard1": "image/player-cards/player-cards.png",
+    "playCard2": "image/player-cards/player-cards@2x.png",
+    "playCard3": "image/player-cards/player-cards@3x.png",
+    "bgx1": "image/bg-left-top/bg-0.png",
+    "bgx2": "image/bg-left-top/bg-0@2x.png",
+    "bgx3": "image/bg-left-top/bg-0@3x.png",
+    "bgx1_topRight": "image/bg-top-right/bg-1.png",
+    "bgx2_topRight": "image/bg-top-right/bg-1@2x.png",
+    "bgx3_topRight": "image/bg-top-right/bg-1@3x.png",
+    "spray1": "image/spray/spray.png",
+    "spray2": "image/spray/spray@2x.png",
+    "spray3": "image/spray/spray@3x.png",
+    "oval1": "image/oval-2/oval-2.png",
+    "oval2": "image/oval-2/oval-2@2x.png",
+    "oval3": "image/oval-2/oval-2@3x.png"
+  },
+  "footer": {
+    "companyLogos1": [
+      {
+        "logo": "image/pelicans.svg",
+        "badge": 0
+      },
+      {
+        "logo": "image/timberwolves.svg",
+        "badge": 0
+
+      },
+      {
+        "logo": "image/grizzlies.svg",
+        "badge": 0
+
+      },
+      {
+        "logo": " image/lakers.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/mavericks.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/clippers.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/nuggets.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/rockets.svg",
+        "badge": 1
+      }
+    ],
+    "companyLogos2": [
+      {
+        "logo": " image/mavericks.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/clippers.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/nuggets.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/rockets.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/mavericks.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/clippers.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/nuggets.svg",
+        "badge": 2
+      },
+      {
+        "logo": " image/rockets.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/mavericks.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/clippers.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/nuggets.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/rockets.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/mavericks.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/clippers.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/nuggets.svg",
+        "badge": 0
+      },
+      {
+        "logo": " image/rockets.svg",
+        "badge": 0
+      }
+    ],
+    "aboutContent": [
+      {
+        "aboutTitle": "lorem IPSUM",
+        "mediumTitle": "consectetur adipiscing elit",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam remomnis iste natus error."
+      },
+      {
+        "aboutTitle": "lorem IPSUM",
+        "mediumTitle": "consectetur adipiscing elit",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam remomnis iste natus error."
+      },
+      {
+        "aboutTitle": "lorem IPSUM",
+        "mediumTitle": "consectetur adipiscing elit",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam remomnis iste natus error."
+      }
+    ],
+    "about_bg1": "image/footer-about-bg/bg-3.png",
+    "about_bg2": "image/footer-about-bg/bg-3@2x.png",
+    "about_bg3": "image/footer-about-bg/bg-3@3x.png",
+    "footer_right_bg1": "image/court-right/court-right.png",
+    "footer_right_bg2": "image/court-right/court-right@2x.png",
+    "footer_right_bg3": "image/court-right/court-right@3x.png",
+    "footer_left_bg1": "image/court-left/court-left.png",
+    "footer_left_bg2": "image/court-left/court-left@2x.png",
+    "footer_left_bg3": "image/court-left/court-left@3x.png",
+    "crown_icon": "image/w-icon.svg",
+    "diamond_icon": "image/e-icon.svg",
+    "crown_panel_content": "western conference",
+    "diamond_panel_content": "EASTERN CONFERENCE"
+  }
+}
