@@ -28,10 +28,6 @@ export default function Footer({ footerData }) {
                                 return (
                                     <div className="company-log-top-panel">
                                         <img src={item.logo}  alt=""></img>
-                                        {
-                                            item.badge !== 0 &&
-                                            <span className="company-badge f f-center-x f-center-y">{item.badge}</span>
-                                        }
                                     </div>
                                 )
                             })
@@ -43,10 +39,6 @@ export default function Footer({ footerData }) {
                                 return (
                                     <div className="company-log-top-panel">
                                         <img src={item.logo}  alt=""></img>
-                                        {
-                                            item.badge !== 0 &&
-                                            <span className="company-badge f f-center-x f-center-y">{item.badge}</span>
-                                        }
                                     </div>
                                 )
                             })
