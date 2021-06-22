@@ -5,10 +5,10 @@ export default function Body({ bodyData }) {
     return (
         <Fragment>
             <div className="background-panel">
-                <img src={bodyData.bgx1} srcSet={`${bodyData.bgx2} 2x, ${bodyData.bgx3} 3x`} className="bg-top-left" />
+                <img src={bodyData.bgx1} srcSet={`${bodyData.bgx2} 2x, ${bodyData.bgx3} 3x`} className="bg-top-left" alt=""/>
                 <div className="bg-top-right f f-end-y">
-                    <img src={bodyData.spray1} srcSet={`${bodyData.spray2} 2x, ${bodyData.spray3} 3x`} className="bg-spray" />
-                    <img src={bodyData.bgx1_topRight} srcSet={`${bodyData.bgx2_topRight} 2x, ${bodyData.bgx3_topRight} 3x`} className="bg-top-right_right" />
+                    <img src={bodyData.spray1} srcSet={`${bodyData.spray2} 2x, ${bodyData.spray3} 3x`} className="bg-spray"  alt=""/>
+                    <img src={bodyData.bgx1_topRight} srcSet={`${bodyData.bgx2_topRight} 2x, ${bodyData.bgx3_topRight} 3x`} className="bg-top-right_right"  alt=""/>
                 </div>
             </div>
             <div className="body-content f f-between row">
@@ -29,7 +29,7 @@ export default function Body({ bodyData }) {
                         </div>
                         <div className="col-sm-6 col-xs-6 col-12">
                             <div className="player-pad f f-center-y">
-                                <img src={bodyData.oval1} srcSet={`${bodyData.oval2} 2x, ${bodyData.oval3} 3x`} className="player-avatar-oval" />
+                                <img src={bodyData.oval1} srcSet={`${bodyData.oval2} 2x, ${bodyData.oval3} 3x`} className="player-avatar-oval" alt="" />
                                 <div className="player-pad-content">
                                     <p>{bodyData.player_pad_content1}</p>
                                     <p>{bodyData.player_pad_content2}</p>
@@ -40,7 +40,7 @@ export default function Body({ bodyData }) {
                     </div>
                 </div>
                 <div className="body-content-right col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12">
-                    <img src={bodyData.playCard1} srcSet={`${bodyData.playCard2} 2x, ${bodyData.playCard3} 3x`} className="player-cards-img" />
+                    <img src={bodyData.playCard1} srcSet={`${bodyData.playCard2} 2x, ${bodyData.playCard3} 3x`} className="player-cards-img"  alt=""/>
                 </div>
             </div>
         </Fragment>

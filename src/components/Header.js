@@ -16,7 +16,7 @@ export default function Header({ headerData }) {
                 </div>
             </div>
             <div className="header-nav-bar f f-start-y f-between">
-                <img src={headerData.logo} className="logo-img"></img>
+                <img src={headerData.logo} className="logo-img"  alt=""></img>
                 <nav className="nav-bar f f-start-y">
                     {
                         headerData.navs.map((item) => {

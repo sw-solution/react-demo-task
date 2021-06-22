@@ -7,18 +7,18 @@ export default function Footer({ footerData }) {
             <div className="footer">
                 <div className="footer-bg-panel f f-between">
                     <div className="footer-bg-left">
-                        <img src={footerData.footer_left_bg1} srcSet={`${footerData.footer_left_bg2} 2x, ${footerData.footer_left_bg3} 3x`} />
+                        <img src={footerData.footer_left_bg1} srcSet={`${footerData.footer_left_bg2} 2x, ${footerData.footer_left_bg3} 3x`}  alt=""/>
                         <div className="crown-panel f f-center-y">
-                            <img src={footerData.crown_icon}></img>
+                            <img src={footerData.crown_icon}  alt=""></img>
                             <p>{footerData.crown_panel_content}</p>
                         </div>
                     </div>
                     <div className="footer-bg-right">
                         <div className="diamond-panel f f-center-y">
                             <p>{footerData.diamond_panel_content}</p>
-                            <img src={footerData.diamond_icon}></img>
+                            <img src={footerData.diamond_icon}  alt=""></img>
                         </div>
-                        <img src={footerData.footer_right_bg1} srcSet={`${footerData.footer_right_bg2} 2x, ${footerData.footer_right_bg3} 3x`} />
+                        <img src={footerData.footer_right_bg1} srcSet={`${footerData.footer_right_bg2} 2x, ${footerData.footer_right_bg3} 3x`}  alt=""/>
                     </div>
                 </div>
                 <div className="company-logos">
@@ -27,9 +27,9 @@ export default function Footer({ footerData }) {
                             footerData.companyLogos1.map(item => {
                                 return (
                                     <div className="company-log-top-panel">
-                                        <img src={item.logo}></img>
+                                        <img src={item.logo}  alt=""></img>
                                         {
-                                            item.badge != 0 &&
+                                            item.badge !== 0 &&
                                             <span className="company-badge f f-center-x f-center-y">{item.badge}</span>
                                         }
                                     </div>
@@ -42,9 +42,9 @@ export default function Footer({ footerData }) {
                             footerData.companyLogos2.map(item => {
                                 return (
                                     <div className="company-log-top-panel">
-                                        <img src={item.logo}></img>
+                                        <img src={item.logo}  alt=""></img>
                                         {
-                                            item.badge != 0 &&
+                                            item.badge !== 0 &&
                                             <span className="company-badge f f-center-x f-center-y">{item.badge}</span>
                                         }
                                     </div>
@@ -65,7 +65,7 @@ export default function Footer({ footerData }) {
                             )
                         })
                     }
-                    <img src={footerData.about_bg1} srcSet={`${footerData.about_bg1} 2x, ${footerData.about_bg1} 3x`} className="about-bg" />
+                    <img src={footerData.about_bg1} srcSet={`${footerData.about_bg1} 2x, ${footerData.about_bg1} 3x`} className="about-bg"  alt=""/>
                 </div>
             </div>
         </Fragment>
